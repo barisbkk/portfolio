@@ -1,0 +1,55 @@
+.contact {
+  height: calc(55vh - 35px);
+  // background-color: gray;
+  color: whitesmoke;
+  display: flex;
+  text-align: center;
+  font-size: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+  .contact-info {
+    display: flex;
+    gap: 3rem;
+    .info {
+      color: #ff652f;
+    }
+    .deneme{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  }
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  p {
+    color: white;
+  }
+  .icons {
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    gap: 0.7rem;
+    margin-bottom: 0.5rem;
+    a {
+      color: white;
+      transition: color 0.5s, transform 1.5s;
+      transform: rotate(0deg);
+      &:hover {
+        color: darkorange;
+        transform: rotate(360deg);
+      }
+    }
+  }
+}
