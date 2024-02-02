@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <div>
       <div className="nav">
-        <ul className="list">
+        <ul className="list-contact">
           <li>
             {" "}
             <Link className="links" to="/">
@@ -30,7 +30,7 @@ const Contact = () => {
             </Link>
           </li>
           <li>
-            <Link className="links" to="/contact">
+            <Link className="links active" to="/contact">
               Contact
             </Link>
           </li>

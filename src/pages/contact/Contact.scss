@@ -1,3 +1,16 @@
+.list-contact {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style-type: none;
+  gap: 2.3rem;
+  margin-right: 3.2rem;
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 .contact {
   height: calc(55vh - 35px);
   // background-color: gray;
@@ -19,7 +32,7 @@
     .info {
       color: #ff652f;
     }
-    .deneme{
+    .deneme {
       display: flex;
       justify-content: center;
       align-items: center;

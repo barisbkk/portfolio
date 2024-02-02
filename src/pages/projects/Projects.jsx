@@ -16,7 +16,7 @@ const Projects = () => {
   return (
     <div>
       <div className="nav">
-        <ul className="list">
+        <ul className="list-projects">
           <li>
             {" "}
             <Link className="links" to="/">
@@ -29,7 +29,7 @@ const Projects = () => {
             </Link>
           </li>
           <li>
-            <Link className="links" to="/projects">
+            <Link className="links active" to="/projects">
               My Projects
             </Link>
           </li>

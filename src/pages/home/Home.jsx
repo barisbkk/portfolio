@@ -9,10 +9,10 @@ const Home = () => {
   return (
     <div className="home1">
       <div className="nav">
-        <ul className="list">
+        <ul className="list-home">
           <li>
             {" "}
-            <Link className="links" to="/">
+            <Link className="links active" to="/">
               Home
             </Link>
           </li>

@@ -1,3 +1,16 @@
+.list-about {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style-type: none;
+  gap: 2.3rem;
+  margin-right: 3.2rem;
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 .about {
   width: 100%;
   height: calc(65vh - 35px);
@@ -12,6 +25,7 @@
     width: 100%;
     margin: auto;
     margin-bottom: 3rem;
+
     h2 {
       color: darkorange;
       font-size: 3rem;
@@ -40,7 +54,7 @@
       .date {
         font-size: 1.5rem;
       }
-      .sm-text{
+      .sm-text {
         font-size: 0.7rem;
         font-weight: bold;
       }

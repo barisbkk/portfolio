@@ -18,25 +18,13 @@ body {
   background-size: cover;
   background-position: 50%;
   height: 100vh;
-  .list {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    list-style-type: none;
-    gap: 2.3rem;
-    margin-right: 3.2rem;
-    padding-top: 0.5rem;
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    .links {
-      text-decoration: none;
-      color: white;
-      transition: color 0.5s;
-      &:focus {
-        color: darkorange;
-        outline: none;
-      }
-    }
+  .links {
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+  }
+  .links.active {
+    color: darkorange;
+    transition: color 1s;
   }
 }

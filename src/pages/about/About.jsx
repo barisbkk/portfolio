@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div className="about">
       <div className="nav">
-        <ul className="list">
+        <ul className="list-about">
           <li>
             {" "}
             <Link className="links" to="/">
@@ -17,7 +17,7 @@ const About = () => {
             </Link>
           </li>
           <li>
-            <Link className="links" to="/about">
+            <Link className="links active" to="/about">
               About Me
             </Link>
           </li>
