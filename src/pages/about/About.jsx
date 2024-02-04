@@ -8,31 +8,30 @@ import "./About.scss";
 const About = () => {
   return (
     <div className="about">
-      <div className="nav">
-        <ul className="list-about">
-          <li>
-            {" "}
-            <Link className="links" to="/">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link className="links active" to="/about">
-              About Me
-            </Link>
-          </li>
-          <li>
-            <Link className="links" to="/projects">
-              My Projects
-            </Link>
-          </li>
-          <li>
-            <Link className="links" to="/contact">
-              Contact
-            </Link>
-          </li>
-        </ul>
-      </div>
+      <ul className="nav">
+        <li>
+          {" "}
+          <Link className="links" to="/">
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link className="links active" to="/about">
+            About Me
+          </Link>
+        </li>
+        <li>
+          <Link className="links" to="/projects">
+            My Projects
+          </Link>
+        </li>
+        <li>
+          <Link className="links" to="/contact">
+            Contact
+          </Link>
+        </li>
+      </ul>
+
       <div className="about-upper">
         <h2>BIO</h2>
         <p>

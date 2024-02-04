@@ -11,31 +11,30 @@ import "./Contact.scss";
 const Contact = () => {
   return (
     <div>
-      <div className="nav">
-        <ul className="list-contact">
-          <li>
-            {" "}
-            <Link className="links" to="/">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link className="links" to="/about">
-              About Me
-            </Link>
-          </li>
-          <li>
-            <Link className="links" to="/projects">
-              My Projects
-            </Link>
-          </li>
-          <li>
-            <Link className="links active" to="/contact">
-              Contact
-            </Link>
-          </li>
-        </ul>
-      </div>
+      <ul className="nav">
+        <li>
+          {" "}
+          <Link className="links" to="/">
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link className="links" to="/about">
+            About Me
+          </Link>
+        </li>
+        <li>
+          <Link className="links" to="/projects">
+            My Projects
+          </Link>
+        </li>
+        <li>
+          <Link className="links active" to="/contact">
+            Contact
+          </Link>
+        </li>
+      </ul>
+
       <div className="contact">
         <h3>Contact Me ...</h3>
         <div className="contact-info">

@@ -1,0 +1,97 @@
+// @import "./mixins";
+
+@include media-xsm {
+  .nav {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .card {
+    width: 50%;
+    .date {
+      text-align: center;
+    }
+
+    h3 {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+  }
+  .contact-info {
+    flex-direction: column;
+  }
+  contact {
+    h3 {
+      font-size: 1rem;
+    }
+  }
+}
+
+@include media-sm {
+  .nav {
+    font-size: 0.8rem;
+  }
+  .card {
+    width: 60%;
+    .date {
+      text-align: center;
+    }
+
+    h3 {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+  }
+  .contact-info {
+    flex-direction: column;
+  }
+}
+
+@include media-md {
+  .nav {
+    font-size: 1rem;
+  }
+  .card {
+    width: 60%;
+    .date {
+      text-align: center;
+    }
+
+    h3 {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+  }
+  contact {
+    h3 {
+      font-size: 2rem;
+    }
+    .contact-info {
+    }
+  }
+}
+
+@include media-lg {
+  .nav {
+    font-size: 1.5rem;
+  }
+  .card {
+    width: 80%;
+  }
+}
+
+@include media-xl {
+  .nav {
+    font-size: 1.5rem;
+  }
+  .card {
+    width: 80%;
+  }
+}

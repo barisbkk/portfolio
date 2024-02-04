@@ -8,31 +8,30 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="home1">
-      <div className="nav">
-        <ul className="list-home">
-          <li>
-            {" "}
-            <Link className="links active" to="/">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link className="links" to="/about">
-              About Me
-            </Link>
-          </li>
-          <li>
-            <Link className="links" to="/projects">
-              My Projects
-            </Link>
-          </li>
-          <li>
-            <Link className="links" to="/contact">
-              Contact
-            </Link>
-          </li>
-        </ul>
-      </div>
+      <ul className="nav">
+        <li>
+          {" "}
+          <Link className="links active" to="/">
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link className="links" to="/about">
+            About Me
+          </Link>
+        </li>
+        <li>
+          <Link className="links" to="/projects">
+            My Projects
+          </Link>
+        </li>
+        <li>
+          <Link className="links" to="/contact">
+            Contact
+          </Link>
+        </li>
+      </ul>
+
       <div className="home">
         <p>Hi! My Name Is</p>
         <h1>

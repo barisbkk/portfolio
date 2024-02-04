@@ -1,21 +1,7 @@
-.list-home {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  list-style-type: none;
-  gap: 2.3rem;
-  margin-right: 3.2rem;
-  padding-top: 0.5rem;
-  font-size: 1.5rem;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
 .home1 {
   height: 100vh;
   .home {
     display: flex;
-    flex: 1;
     flex-direction: column;
     justify-content: center;
     height: 90%;
@@ -41,6 +27,7 @@
     }
   }
   .footer-home {
+    // width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
