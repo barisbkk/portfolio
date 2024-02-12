@@ -1,2 +1,1 @@
-## responsive tasarım eklenecek
-## navbar linklerindeki :focus sorunu halledilecek 
+## https://portfolio-ten-chi-14.vercel.app/
